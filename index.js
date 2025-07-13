@@ -94,7 +94,4 @@ function checkWinLose() {
   }
 }
 
-window.onload = function() {
-  startGame();
-  changeDisplay();
-}
+window.onload = startGame;
